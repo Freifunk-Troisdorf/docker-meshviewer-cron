@@ -1,0 +1,4 @@
+* * * * * wget http://4.fftdf.de/graph.json -O /opt/data/tdf4/graph.json
+* * * * * wget http://4.fftdf.de/meshviewer.json -O /opt/data/tdf4/meshviewer.json
+* * * * * wget http://4.fftdf.de/nodelist.json -O /opt/data/tdf4/nodelist.json
+* * * * * wget http://4.fftdf.de/nodes.json -O /opt/data/tdf4/nodes.json
