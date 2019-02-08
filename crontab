@@ -10,7 +10,3 @@
 * * * * * wget http://6.fftdf.de/meshviewer.json -O /opt/data/tdf6/meshviewer.json
 * * * * * wget http://6.fftdf.de/nodelist.json -O /opt/data/tdf6/nodelist.json
 * * * * * wget http://6.fftdf.de/nodes.json -O /opt/data/tdf6/nodes.json
-* * * * * wget http://7.fftdf.de/graph.json -O /opt/data/tdf6/graph.json
-* * * * * wget http://7.fftdf.de/meshviewer.json -O /opt/data/tdf6/meshviewer.json
-* * * * * wget http://7.fftdf.de/nodelist.json -O /opt/data/tdf6/nodelist.json
-* * * * * wget http://7.fftdf.de/nodes.json -O /opt/data/tdf6/nodes.json
