@@ -3,6 +3,9 @@ LABEL maintainer "Stefan Hoffmann, Nils Jakobi"
 
 VOLUME [ "/opt/data" ]
 
+# prerequisists
+RUN apk add curl sed
+
 # Configure cron
 COPY crontab /etc/cron/crontab
 
@@ -13,4 +16,4 @@ COPY nodePoller.sh .
 # Init cron
 RUN crontab /etc/cron/crontab
 
-CMD ["crond", "-f"]
+ENTRYPOINT ["crond", "-f"]
