@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 for i in 4 5 6 7
 do

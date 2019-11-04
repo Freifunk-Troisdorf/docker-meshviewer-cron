@@ -1,6 +1,8 @@
 FROM alpine:3.10.3
 LABEL maintainer "Stefan Hoffmann, Nils Jakobi"
 
+VOLUME [ "/opt/data" ]
+
 # Configure cron
 COPY crontab /etc/cron/crontab
 
